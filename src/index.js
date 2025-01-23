@@ -1,5 +1,8 @@
 export class Greeter {
-    sayHello() {
+    sayHello(name) {
+        if (name) {
+            return `hello, ${name}`;
+        }
         return "hello";
     }
 }
