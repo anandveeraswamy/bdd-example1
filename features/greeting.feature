@@ -1,8 +1,11 @@
 Feature: Greeting
-
 	Scenario: Say hello
 		When the greeter says hello
 		Then I should have heard "hello"
+
+	Scenario: The greeter says hello to a specific person
+		When the greeter says hello to "John"
+		Then I should have heard "hello, John"
 
 # This is written in Gherkin language, which is used for Behavior-Driven Development (BDD). 
 # Gherkin is a plain-text language designed to describe software behaviors in a human-readable format, 
