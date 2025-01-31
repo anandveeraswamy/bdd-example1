@@ -44,7 +44,7 @@ Follow the instructions below to set up and run the application.
 
 ## Challenge:
 Change the steps.js and index.js to include additional scenario as shown in the feature file below. If you get stuck, refer to the solution branch
-Feature: Greeting
+```Feature: Greeting
 	Scenario: Say hello
 		When the greeter says hello
 		Then I should have heard "hello"
