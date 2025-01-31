@@ -42,4 +42,15 @@ Follow the instructions below to set up and run the application.
    ```bash
    npx cucumber-js
 
+## Challenge:
+Change the steps.js and index.js to include additional scenario as shown in the feature file below. If you get stuck, refer to the solution branch
+Feature: Greeting
+	Scenario: Say hello
+		When the greeter says hello
+		Then I should have heard "hello"
+
+	Scenario: The greeter says hello to a specific person
+		When the greeter says hello to "John"
+		Then I should have heard "hello, John"
+
 
